@@ -11,11 +11,11 @@ The ARViS is designed to perform multiple injections onto the cortex of mice and
 - Flexible setting of injection regions
 - 7 x 14 mm wide-field imaging
 
-**Please visit our [wiki](https://github.com/nomurshin/ARViS_prepublication/wiki)!** We've provided comprehensive introduction to help you navigate each part of the platform there.
-
-All scripts of the ARViS platform are written as MATLAB scripts, except for SA-UNet and Autostitch.
+# Please visit our [wiki](https://github.com/nomurshin/ARViS_prepublication/wiki)!
+We've provided comprehensive introduction to help you navigate each part of the platform there.
 
 # How to Install
+All scripts of the ARViS platform are written as MATLAB scripts, except for SA-UNet and Autostitch.
 
 1. Fork, clone, or copy the repository to your local computer.
 2. [Download MATLAB R2021b](https://www.mathworks.com/products/matlab.html).
