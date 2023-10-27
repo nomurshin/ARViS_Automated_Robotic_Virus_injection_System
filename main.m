@@ -219,6 +219,7 @@ end
 % The time required to change the position and angle of the injection is only about 20 seconds.
 
 %%%%%Parameters for injection%%%%%%%
+injdepth = 0.3;
 vol = 30;
 rate = 5;
 delay = 5;
