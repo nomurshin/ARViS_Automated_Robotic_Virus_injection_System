@@ -116,7 +116,7 @@ Opos = Device.qPOS('x y z');
 stop(cam);
 %% Camera calibration
 % Estimate the rotation and translation between the two cameras so that 
-% we can Estimate visual coordinates {V} from the pixel coordinates of two images.
+% we can Estimate camera coordinates {C} from the pixel coordinates of two images.
 
 addpath(genpath('Data/videoCalibration'));
 cameraParams1 = load("Data/videoCalibration/cameraparam1.mat").params;
