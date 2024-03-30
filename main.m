@@ -193,17 +193,6 @@ F_nz = scatteredInterpolant(reshape(Y_m,[],1),reshape(Z_m,[],1),normals(:,3));
 targetNorm = [F_nx(target_new(:,2),target_new(:,3)),...
     F_ny(target_new(:,2),target_new(:,3))...
     F_nz(target_new(:,2),target_new(:,3))];
-figure;
-scatter3(target_new(:,2),target_new(:,3),target_new(:,1),25,1:length(target_new(:,2)),'filled');
-hold on
-quiver3(target_new(1:4:end,2),target_new(1:4:end,3),target_new(1:4:end,1),...
-    targetNorm(1:4:end,2),targetNorm(1:4:end,3),targetNorm(1:4:end,1))
-axis equal
-hold on
-scatter3(points.Location(:,2),points.Location(:,3),points.Location(:,1),5,'filled');
-ax = gca;
-ax.ZDir = 'reverse';
-
 target_v = nan(length(target_new(:,1)),1);
 target_w = nan(length(target_new(:,1)),1);
 Device.KEN('BREGMA');
